@@ -176,7 +176,7 @@ const Task = () => {
   useEffect(() => {
    
     fetchTasks();
-  },[]);
+  },[tasks]);
 
   const handleTaskUpdate = () => {
     fetchTasks(); 
